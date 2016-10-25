@@ -19,40 +19,38 @@ for i in range(0, n):
 acount = 0
 for a1 in A_1:
     print"",
-    print a1
-    for a_1 in a1:
-        print a_1,
-        acount += 1
-        if (acount % 9 == 0):
+    for (i, a_1) in enumerate(a1):
+        if (i == 9):
             print a_1
-            acount += 1
+            break
+        print a_1,
 print "#" * 20
 
 bcount = 0
 for a2 in A_2:
     print"",
-    for a_2 in a2:
-        print a_2,
-        bcount += 1
-        if (bcount % 10 == 0):
+    for (i, a_2) in enumerate(a2):
+        if (i == 9):
             print a_2
+            break
+        print a_2,
 print "#" * 20
 
 ccount = 0
 for a3 in A_3:
     print"",
-    for a_3 in a3:
-        print a_3,
-        ccount += 1
-        if (ccount % 10 == 0):
+    for (i, a_3) in enumerate(a3):
+        if (i == 9):
             print a_3
+            break
+        print a_3,
 print "#" * 20
 
 dcount = 0
 for a4 in A_4:
     print"",
-    for a_4 in a4:
-        print a_4,
-        dcount += 1
-        if (dcount % 10 == 0):
+    for (i, a_4) in enumerate(a4):
+        if (i == 9):
             print a_4
+            break
+        print a_4,
